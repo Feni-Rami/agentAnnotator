@@ -77,8 +77,8 @@ To run this project, you'll need to install the following dependencies:
 
 You can install these dependencies using `pip`:
 
-```bash
-pip install numpy scikit-learn matplotlib seaborn gym tensorflow rllib
+	```bash
+	pip install numpy scikit-learn matplotlib seaborn gym tensorflow rllib
 
 ## Installation
 
@@ -95,7 +95,7 @@ To get started with the project, follow these steps:
 
 ### Usage
 
-```markdown
+	```markdown
 ## Usage
 
 To run the project and start the simulation:
