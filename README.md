@@ -36,12 +36,12 @@ The `CentralServer` class in this file manages the overall environment in which 
 - **Task Assignment**: Assigns data annotation tasks to the agents and evaluates their performance.
 - **Economic Management**: Applies taxation, redistributes income, and manages economic stability within the system.
 - **Malicious Detection**: Identifies and mitigates the impact of malicious agents that might provide incorrect annotations.
+- **Identify Malicious Behavior**: Uses clustering and anomaly detection techniques to identify agents that behave suspiciously.
 
 ### `fraud_detection.py`
 
 This file contains the `FraudDetectionEnvWithEconomics` class, which extends the environment to include specific mechanisms for detecting fraudulent or malicious behavior among annotators. It integrates both RL and economic principles to:
 
-- **Identify Malicious Behavior**: Uses clustering and anomaly detection techniques to identify agents that behave suspiciously.
 - **Adjust Economic Policies**: Modifies economic policies, such as increasing taxes or redistributing resources, to reduce the impact of detected fraud.
 
 ### `main.py`
