@@ -80,3 +80,30 @@ You can install these dependencies using `pip`:
 ```bash
 pip install numpy scikit-learn matplotlib seaborn gym tensorflow rllib
 
+## Installation
+
+To get started with the project, follow these steps:
+
+1. **Clone the repository**:
+   
+   First, you'll need to clone the repository to your local machine. You can do this using the following command:
+
+   ```bash
+   git clone https://github.com/YourUsername/agentAnnotator.git
+   cd agentAnnotator
+
+
+### Usage
+
+```markdown
+## Usage
+
+To run the project and start the simulation:
+
+1. **Run the main script**:
+
+   Execute the following command in your terminal:
+
+   ```bash
+   python test_ai.py
+
